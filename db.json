@@ -109,6 +109,17 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "8832",
+      "name": "Teste",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
