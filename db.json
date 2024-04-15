@@ -32,6 +32,17 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "ec63",
+      "name": "Design",
+      "budget": "5000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
