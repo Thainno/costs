@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import Loading from "../layout/Loading";
 import Container from "../layout/Container";
 import ProjectForm from "../projects/ProjectForm";
+import ServiceForm from "../service/ServiceForm";
 import Message from "../layout/Message";
 
 function Project() {
@@ -58,6 +59,10 @@ function Project() {
       .catch((err) => console.log(err));
   }
 
+  function createService(){
+    
+  }
+
   function toggleProjectForm() {
     setShowProjectForm(!showProjectForm);
   }
@@ -105,12 +110,16 @@ function Project() {
                 {!showServiceForm ? "Adicionar serviço" : "Fechar"}
               </button>
               <div className={styles.project_info}>
-                {showServiceForm && <div>Formulário do serviço</div>}
+                {showServiceForm && <ServiceForm 
+                  handleSubmit={createService}
+                  btnText="Adicionar serviço"
+                  projectData={project}
+                />}
               </div>
             </div>
             <h2>Serviços</h2>
-            <Container customClass="start">  
-                <p>Itens de serviços</p>
+            <Container customClass="start">
+              <p>Itens de serviços</p>
             </Container>
           </Container>
         </div>
