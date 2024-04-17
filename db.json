@@ -8,8 +8,21 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 400,
+      "services": [
+        {
+          "name": "Analisar os dados",
+          "cost": "200",
+          "description": "Análise completa de todos os requisitos funcionais",
+          "id": "32ab8e51-9819-4cd3-80e7-3f71af84d238"
+        },
+        {
+          "name": "Analisar os dados",
+          "cost": "200",
+          "description": "Análise completa de todos os requisitos funcionais",
+          "id": "32ab8e51-9819-4cd3-80e7-3f71af84d238"
+        }
+      ]
     },
     {
       "id": "8832",
