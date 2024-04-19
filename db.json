@@ -32,8 +32,15 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": []
+      "cost": 100,
+      "services": [
+        {
+          "name": "Teste",
+          "cost": "100",
+          "description": "Apenas teste",
+          "id": "0ebefd75-6033-4574-b86a-7e13e8a33a84"
+        }
+      ]
     },
     {
       "id": "dcbc",
