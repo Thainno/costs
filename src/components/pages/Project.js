@@ -10,7 +10,7 @@ import Container from "../layout/Container";
 import ProjectForm from "../projects/ProjectForm";
 import ServiceForm from "../service/ServiceForm";
 import Message from "../layout/Message";
-import ServiceCard from "../service/ServiceCard"
+import ServiceCard from "../service/ServiceCard";
 
 function Project() {
   const { id } = useParams();
@@ -94,12 +94,36 @@ function Project() {
     })
       .then((resp) => resp.json())
       .then((data) => {
-        setShowServiceForm(false)
+        setShowServiceForm(false);
+        setMessage("Serviço adicionado com sucesso!");
       })
       .catch((err) => console.log(err));
   }
 
-  function removeService() {}
+  function removeService(id, cost) {
+    const servicesUpdated = project.services.filter(
+      (service) => service.id !== id
+    );
+    const projectUpdated = project;
+
+    projectUpdated.services = servicesUpdated;
+    projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost);
+
+    fetch(`http://localhost:5000/projects/${projectUpdated.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(projectUpdated),
+    })
+      .then((resp) => resp.json())
+      .then((data) => {
+        setProject(projectUpdated);
+        setServices(servicesUpdated);
+        setMessage("Serviço removido com sucesso!");
+      })
+      .catch((err) => console.log(err));
+  }
 
   function toggleProjectForm() {
     setShowProjectForm(!showProjectForm);
