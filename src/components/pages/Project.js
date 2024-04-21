@@ -96,6 +96,7 @@ function Project() {
       .then((data) => {
         setShowServiceForm(false);
         setMessage("Serviço adicionado com sucesso!");
+        setType("success");
       })
       .catch((err) => console.log(err));
   }
@@ -121,6 +122,7 @@ function Project() {
         setProject(projectUpdated);
         setServices(servicesUpdated);
         setMessage("Serviço removido com sucesso!");
+        setType("success");
       })
       .catch((err) => console.log(err));
   }
