@@ -1,5 +1,5 @@
 {
-  "homepage": "https://costs.github.io",
+  "homepage": "https://thainno.github.io/costs",
   "name": "cost",
   "version": "0.1.0",
   "private": true,
@@ -18,12 +18,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
     "backend": "json-server --watch db.json --port 5000",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
