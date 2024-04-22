@@ -12,11 +12,11 @@
 
 <h2>💻 Projeto</h2>
 
-<p><a href="https://costs-rose-seven.vercel.app/">Clique aqui</a> para visualizar e testar o projeto.</p
+<p><a href="https://thainno.github.io/costs/">Clique aqui</a> para visualizar e testar o projeto.</p
 
 <img src="https://github.com/Thainno/costs/blob/main/src/img/deploy.jpg"></img><br>
 
-### 
+###
 
 <h2>🔗 Referências</h2>
 <p>Link do tutorial: <a href="https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&index=1"</a>youtube.com</p>
