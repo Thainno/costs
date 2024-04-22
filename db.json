@@ -133,4 +133,139 @@
       "name": "Planejamento"
     }
   ]
+}{
+  "projects": [
+    {
+      "id": "d137",
+      "name": "Análise dos requisitos",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "budget": "50000",
+      "cost": 30000,
+      "services": [
+        {
+          "name": "Levantamento de requisitos",
+          "cost": "10000",
+          "description": "Levantamento de todos os requisitos funcionais e não funcionais junto ao cliente e usuário",
+          "id": "05be6754-c73a-4bce-b418-81c28adce2f0"
+        },
+        {
+          "name": "Análise dos requisitos",
+          "cost": "10000",
+          "description": "Análise completa de todos os requisitos do sistema",
+          "id": "1f743c9c-eec0-4a5d-83dd-8b4435ff0bf2"
+        },
+        {
+          "name": "Modelagem de software",
+          "cost": "10000",
+          "description": "Escolha e desenvolvimento do modelo de software para o projeto",
+          "id": "ef92d44c-1df9-4211-a562-32f85e2116ee"
+        }
+      ]
+    },
+    {
+      "id": "c200",
+      "name": "Design do sistema",
+      "budget": "50000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 25000,
+      "services": [
+        {
+          "name": "Criação do esboço",
+          "cost": "5000",
+          "description": "Etapa de desenvolvimento do esboço com base nos requisitos e aplicações que o projeto deve ter",
+          "id": "6a467015-4224-4dbc-859c-00ff964970c4"
+        },
+        {
+          "name": "Design",
+          "cost": "20000",
+          "description": "Criação de todo o design do projeto",
+          "id": "1e2e80ba-5384-4d66-b7f4-c2aa46e96a97"
+        }
+      ]
+    },
+    {
+      "id": "ce80",
+      "name": "Implementação",
+      "budget": "100000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 100000,
+      "services": [
+        {
+          "name": "Programação front-end",
+          "cost": "50000",
+          "description": "Criação das interfaces gráficas e de interação dos usuários.",
+          "id": "55e7d341-42af-46d5-8094-663824fafa1d"
+        },
+        {
+          "name": "Programação back-end",
+          "cost": "50000",
+          "description": "Criação de toda conexão com o banco de dados",
+          "id": "d5d8d903-1da3-4bb0-b8a8-2e2492638425"
+        }
+      ]
+    },
+    {
+      "id": "e798",
+      "name": "Testes",
+      "budget": "30000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 20000,
+      "services": [
+        {
+          "name": "Testes do sistema",
+          "cost": "20000",
+          "description": "Realização de diversos testes em todas as interfaces e em todos os requisitos do projeto, tudo deve estar em conformidade",
+          "id": "7d8dfcf2-b417-4223-aa15-bf10e6b491b8"
+        }
+      ]
+    },
+    {
+      "id": "795b",
+      "name": "Manutenção",
+      "budget": "50000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 15000,
+      "services": [
+        {
+          "name": "Análise periódica",
+          "cost": "15000",
+          "description": "Análise periódica para validação do projeto, afim de resolver bugs e erros encontrados na etapa de testes",
+          "id": "4ce5aebe-788b-4cb6-81c6-063cf7ec4678"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
 }
