@@ -1,6 +1,6 @@
-<h1 align="center">Costs</h1>
+<h1 align="center"><img width="30px" src="https://github.com/Thainno/costs/blob/main/src/img/costs_logo.png"> Costs</h1>
 
-<p>O Costs traz uma dinâmica de gerenciamento de serviços e custos dos seus projetos, </p><br>
+<p>O Costs é um gerenciador de projetos, onde você é capaz de gerir os custos e descrição de cada serviço dentro dos projetos. </p><br>
 
 <h2>✅ Funcionalidades</h2>
 <ul>
