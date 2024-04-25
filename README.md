@@ -12,7 +12,7 @@
 
 <h2>💻 Projeto</h2>
 
-<p><a href="https://thainno.github.io/cost">Clique aqui</a> para visualizar e testar o projeto.</p
+<p><a href="https://costs-thainnos-projects.vercel.app/">Clique aqui</a> para visualizar e testar o projeto.</p
 
 <img src="https://github.com/Thainno/costs/blob/main/src/img/deploy.jpg"></img><br>
 
